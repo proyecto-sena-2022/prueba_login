@@ -4,6 +4,7 @@ define('PASSWORD','');
 define('HOST', 'host');
 define('port', '3300');
 define('DATABASE', 'usu');
+define('servidor', '127.0.0.1');
  
 try {
     $connection = new PDO("mysql:host=".HOST.";dbname=".DATABASE, USER, PASSWORD);
