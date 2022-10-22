@@ -3,7 +3,7 @@ define('USER', 'root');
 define('PASSWORD','');
 define('HOST', 'host');
 define('port', '3306');
-define('DATABASE', 'usu');
+define('DATABASE', 'usuarios');
 define('servidor', '127.0.0.1');
  
 try {
