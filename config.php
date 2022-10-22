@@ -1,6 +1,6 @@
 <?php
 define('USER', 'root');
-define('PASSWORD','');
+define('PASSWORD','1794');
 define('HOST', 'host');
 define('port', '3306');
 define('DATABASE', 'usuarios');
