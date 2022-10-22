@@ -10,7 +10,7 @@ if (isset($_POST['login'])) {
   
  
  
-    $query = $connection->prepare("SELECT * FROM usuarios WHERE nombres=:nombres");
+    $query = $connection->prepare("SELECT * FROM personal WHERE nombres=:nombres");
     $query->bindParam("username", $username, PDO::PARAM_STR);
     $query->execute();
  
